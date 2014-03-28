@@ -1,0 +1,23 @@
+- Goto https://github.com/niladri-git & Create the following new repository:
+
+ https://github.com/niladri-git/Git-Basics
+
+- Open git Bash.
+
+$ pwd
+/h/workspace/Git
+
+$ git clone https://github.com/niladri-git/Git-Basics.git
+
+$ git add git-basics.txt
+
+$ git status
+
+$ git config --global user.name "Niladri Datta"
+
+$ git config --global user.email "dattaniladri@gmail.com"
+
+$ git config --list
+
+$ git commit -m "First commit"
+
