@@ -21,3 +21,6 @@ $ git config --list
 
 $ git commit -m "First commit"
 
+$ git remote add origin https://github.com/niladri-git/Git-Basics.git
+
+$ git push -u origin master
