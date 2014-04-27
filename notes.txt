@@ -1,0 +1,23 @@
+Create new proj in Eclipse from existing git proj
+
+=> Git Bash
+
+$ pwd
+/h/workspace/Git
+
+$ git clone https://github.com/niladri-git/School
+Cloning into 'School'...
+remote: Counting objects: 7, done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 7 (delta 0), reused 7 (delta 0)
+Unpacking objects: 100% (7/7), done.
+Checking connectivity... done.
+
+=> Eclipse
+
+File -> New -> Java Proj -> Proj name (School) + Location (H:\workspace\Eclipse-WS\School) -> Next -> Finish
+
+Click on Proj name (School) -> File -> import -> File System -> Next -> Browse (H:\workspace\Git\School) 
+-> Select All -> Finish
+
+++++++++++
