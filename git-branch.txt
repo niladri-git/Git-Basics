@@ -1,0 +1,87 @@
+$ git branch crazy-experiment
+
+$ git branch -d crazy-experiment
+
+$ git branch -D crazy-experiment
+
++++
+
+git branch new-feature
+git checkout new-feature
+
+# Edit some files
+git add <file>
+git commit -m "Started work on a new feature"
+# Repeat
+
+git checkout master
+
+++++
+
+## Fast-Forward Merge
+
+# Start a new feature
+git checkout -b new-feature master
+
+# Edit some files
+git add <file>
+git commit -m "Start a feature"
+
+# Edit some files
+git add <file>
+git commit -m "Finish a feature"
+
+# Merge in the new-feature branch
+git checkout master
+git merge new-feature
+git branch -d new-feature
+
+++++
+
+## 3-way merge 
+
+# Start a new feature
+git checkout -b new-feature master
+
+# Edit some files
+git add <file>
+git commit -m "Start a feature"
+
+# Edit some files
+git add <file>
+git commit -m "Finish a feature"
+
+# Develop the master branch
+git checkout master
+
+# Edit some files
+git add <file>
+git commit -m "Make some super-stable changes to master"
+
+# Merge in the new-feature branch
+git merge new-feature
+git branch -d new-feature
+
+++++
+
+//deleting local branch
+
+ndatta@HOME-BFA7C5E8A8 /h/workspace/Git/Rathi (dev2)
+$ git branch -d dev1
+error: The branch 'dev1' is not fully merged.
+If you are sure you want to delete it, run 'git branch -D
+
+ndatta@HOME-BFA7C5E8A8 /h/workspace/Git/Rathi (dev2)
+$ git branch -D dev1
+Deleted branch dev1 (was e904e20).
+
+//deleting remote branch
+
+ndatta@HOME-BFA7C5E8A8 /h/workspace/Git/Rathi (dev1)
+$ git push origin --delete dev1
+Username for 'https://github.com': niladri-git
+Password for 'https://niladri-git@github.com':
+To https://github.com/niladri-git/Rathi.git
+ - [deleted]         dev1
+ 
++++++
