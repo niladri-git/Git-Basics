@@ -23,4 +23,35 @@ $ git commit -m "First commit"
 
 $ git remote add origin https://github.com/niladri-git/Git-Basics.git
 
-$ git push -u origin master
+$ git push origin master
+
+$ git pull origin master
+
+++++
+
+ndatta@HOME-BFA7C5E8A8 /h/workspace/Git/Rathi (auto)
+$ git show HEAD~1:ins_trd_21-05.sql
+INSERT INTO TRADE (TRD_DT, MONTH, TYPE, NAME, TRD_QTY, ENT_DT, COMMENTS) VALUES
+INSERT INTO TRADE (TRD_DT, MONTH, TYPE, NAME, TRD_QTY, ENT_DT, COMMENTS) VALUES
+
+ndatta@HOME-BFA7C5E8A8 /h/workspace/Git/Rathi (auto)
+$ git show HEAD~1:ins_trd_21-05.sql > ins_trd_21-05.sql
+
++++++
+
+ndatta@HOME-BFA7C5E8A8 /h/workspace/Git/Git-Basics (master)
+$ git checkout master
+
+ndatta@HOME-BFA7C5E8A8 /h/workspace/Git/Git-Basics (master)
+$ git pull origin master
+
+ndatta@HOME-BFA7C5E8A8 /h/workspace/Git/Git-Basics (master)
+$ git merge auto
+
+ndatta@HOME-BFA7C5E8A8 /h/workspace/Git/Git-Basics (master)
+$ git status
+
+ndatta@HOME-BFA7C5E8A8 /h/workspace/Git/Git-Basics (master)
+$ git push origin master
+
++++++
