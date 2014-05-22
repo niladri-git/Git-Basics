@@ -21,3 +21,29 @@ Click on Proj name (School) -> File -> import -> File System -> Next -> Browse (
 -> Select All -> Finish
 
 ++++++++++
+
+dattan1@WD4BED99C9B68 /c/Workspaces/Git/Rathi (auto)
+$ git checkout master
+error: Your local changes to the following files would be overwritten by checkout:
+        Rel/version
+Please, commit your changes or stash them before you can switch branches.
+Aborting
+
+dattan1@WD4BED99C9B68 /c/Workspaces/Git/Rathi (auto)
+$ git stash save --keep-index
+warning: LF will be replaced by CRLF in Rel/version.
+The file will have its original line endings in your working directory.
+Saved working directory and index state WIP on auto: 67e1d5a Updated till 21-05-2014
+HEAD is now at 67e1d5a Updated till 21-05-2014
+
+dattan1@WD4BED99C9B68 /c/Workspaces/Git/Rathi (auto)
+$ git stash drop
+Dropped refs/stash@{0} (283013ba8a669ebf6d635c4f06beb334a2500a04)
+
+dattan1@WD4BED99C9B68 /c/Workspaces/Git/Rathi (auto)
+$ git checkout master
+Switched to branch 'master'
+Your branch is behind 'origin/master' by 7 commits, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+
++++
