@@ -55,3 +55,22 @@ ndatta@HOME-BFA7C5E8A8 /h/workspace/Git/Git-Basics (master)
 $ git push origin master
 
 +++++
+
+$ git push -u origin master
+
+error: The requested URL returned error: 403 Forbidden while accessing https://github.com/niladri-git/WIP.git/info/refs
+fatal: HTTP request failed
+
+$ git remote set-url origin https://niladri-git@github.com/niladri-git/WIP.git
+
+(gnome-ssh-askpass:2253): Gtk-WARNING **: cannot open display:
+
+$ echo $SSH_ASKPASS
+/usr/libexec/openssh/gnome-ssh-askpass
+
+$ unset SSH_ASKPASS
+
+$ git push -u origin master
+SUCCESS
+
+++++
