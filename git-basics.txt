@@ -74,3 +74,9 @@ $ git push -u origin master
 SUCCESS
 
 ++++
+
+# Checking out a single file from repo
+
+$ git checkout  remove.sh
+
+++++
