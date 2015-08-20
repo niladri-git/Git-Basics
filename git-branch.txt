@@ -85,3 +85,30 @@ To https://github.com/niladri-git/Rathi.git
  - [deleted]         dev1
  
 +++++
+
+Checking out and committing to remote branches
+
+  237  git clone https://github.com/niladri-git/Nifty
+  239  cd Nifty/
+  
+  $ git branch
+	  Trend
+	* master
+  
+  241  git checkout -b Trend origin/Trend
+  	
+  $ git branch
+	* Trend
+	  master
+
++++
+
+  $ pwd
+    /c/Workspace/Git/Nifty/New
+	
+  270  git add *
+  271  git status
+  272  git commit -m "Updated 20-Aug"
+  275  git push origin Trend
+  
++++
