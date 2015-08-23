@@ -80,3 +80,18 @@ SUCCESS
 $ git checkout  remove.sh
 
 ++++
+
+ 121
+down vote
+accepted
+	
+
+Do NOT run "git reset --hard". It will not only unstage your added files, but will revert any changes you made!
+
+If all you want is to undo an overzealous "git add" run:
+
+git reset
+
+Your changes will be unstanged and ready for you to re-add as you please.
+
++++
