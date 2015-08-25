@@ -40,3 +40,14 @@ Total 11 (delta 0), reused 0 (delta 0)
 To https://github.com/niladri-git/Tetris.git
  * [new branch]      master -> master
 Branch master set up to track remote branch master from origin.
+
++++
+
+Ensure Git doesn't ask me for my GitHub username and password?
+
+ 295  git config -l
+ 297  git remote rm origin
+ 298  git remote add origin https://niladri-git:yourpassword@github.com/niladri-git/maven-ecipse-basics.git
+ 299  git push -u origin master
+ 
++++
