@@ -3,3 +3,20 @@ Ignore local changes
 
 $ git log --name-status
 Shows git history with file names and status.
+
+$ git remote
+origin
+
++++
+
+Adding git username/password for github push.
+
+$ git remote -v
+origin  https://github.com/niladri-git/Git-Basics (fetch)
+origin  https://github.com/niladri-git/Git-Basics (push)
+
+$ git remote remove origin
+
+$ git remote add origin https://niladri-git:password@github.com/niladri-git/Git-Basics 
+
++++
