@@ -1,0 +1,5 @@
+$ git checkout  git-basics.txt
+Ignore local changes
+
+$ git log --name-status
+Shows git history with file names and status.
